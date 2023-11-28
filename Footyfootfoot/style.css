@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.shirt-icon:hover path,
+.field-icon:hover path,
+.player-icon:hover path {
+    stroke: rgb(59, 56, 56);
+}
+
+ul:hover {
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    background-color: pink;
+}
+.user-icon {
+    margin-left: 16.5em;
+}
+
+.user-icon:hover {
+    cursor: pointer;
+}
+
+.ball-icon {
+    display: flex;
+    cursor: pointer;
+}
+
+h1 {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+
