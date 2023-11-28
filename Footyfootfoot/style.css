@@ -1,47 +1,88 @@
-nav {
-    display: flex;
-    align-items: center;
-    background-color: grey;
-}
-body {
-    margin: 0;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    gap: 1em;
+/*DESKTOP*/
+@media screen and (min-width: 768px){
+    nav {
+        display: flex;
+        align-items: center;
+        background-color: grey;
+    }
 }
 
-.shirt-icon:hover path,
-.field-icon:hover path,
-.player-icon:hover path {
-    stroke: rgb(59, 56, 56);
+@media screen and (min-width: 768px){
+    body {
+        margin: 0;
+    }
 }
 
-ul:hover {
-    cursor: pointer;
-}
-.main {
-    display: flex;
-    background-color: pink;
-}
-.user-icon {
-    margin-left: 16.5em;
+@media screen and (min-width: 768px){
+    ul {
+        display: flex;
+        list-style-type: none;
+        gap: 1em;
+    }
 }
 
-.user-icon:hover {
-    cursor: pointer;
+@media screen and (min-width: 768px){
+    ul:hover {
+        cursor: pointer;
+    }
 }
 
-.ball-icon {
-    display: flex;
-    cursor: pointer;
+@media screen and (min-width: 768px){
+    .Players {
+        margin-top: 3em;
+        margin-left: 1em;
+        height: 70%;
+        width: 15%;
+        background-color: rgba(248, 67, 67, 0.822);
+        text-indent: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: .9em;
+        
+    }
 }
 
-h1 {
-    margin-right: 1em;
-    cursor: pointer;
+@media screen and (min-width: 768px){
+    .player-pic{
+        width: 100%;
+        height: auto;
+        opacity: 60%;
+    }
 }
 
+@media screen and (min-width: 768px){
+    .Players:hover {
+        cursor: pointer;
+    }
+}
 
+@media screen and (min-width: 768px){
+    .user-icon {
+        margin-left: 16.5em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .user-icon:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .ball-icon {
+        display: flex;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px){
+    h1 {
+        margin-right: 1em;
+        cursor: pointer;
+    }
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 768px){
+
+}
