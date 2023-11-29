@@ -47,6 +47,16 @@
               </svg></a></li>
         </ul> -->
         
+
+        <button onclick="toggleMode()">Toggle Mode</button>
+
+          <script>
+            function toggleMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+          }
+          </script>
+
         <a href="user.html"><svg xmlns="http://www.w3.org/2000/svg" class="user-icon" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M12 13a3 3 0 1 0 0 -6a3 3 0 0 0 0 6z" />
@@ -54,10 +64,26 @@
             <path d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
           </svg></a>
 
+        
     </nav>
-    <div class="Players">
-      <h1>PLAYERS</h1>
-      <img class ="player-pic"src="https://prod-printler-front-as.azurewebsites.net/media/photo/141636.jpg?mode=crop&width=727&height=1024&rnd=0.0.1" alt="Player Pic">
+    <div class = "Players">
+      <h1 class = "players-header">PLAYERS</h1>
+      <a href = "players.html"><img class ="player-pic"src="https://prod-printler-front-as.azurewebsites.net/media/photo/141636.jpg?mode=crop&width=727&height=1024&rnd=0.0.1" alt="Player Pic"></a>
+    </div>
+
+    <div class = "Matches">
+      <h1 class = "matches-header">Upcoming Matches</h1>
+      <a href = "matches.html"><img class = "matches-pic" src ="https://th.bing.com/th/id/OIP.TPjouaAob5dw8pHSYlrxhgHaE_?rs=1&pid=ImgDetMain" alt = "Field"></a>
+    </div>
+
+    <div class = "Money">
+      <h1 class = "money-header">BALANCE</h1>
+      <a href = "money.html"><img class = "money-pic" src = "https://www.freevector.com/uploads/vector/preview/6105/FreeVector-Dollar-Sign.jpg" alt = "BALANCE"></a>
+    </div>
+
+    <div class = "TEAM">
+      <h1 class = "team-header">YOUR TEAM</h1>
+      <a href = "team.html"><img class = "team-pic" src = "https://cdn1.iconfinder.com/data/icons/education-vol-2-1/64/075-512.png" alt = "YOURTEAM"></a>
     </div>
 </body>
 </html>

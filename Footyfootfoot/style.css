@@ -10,6 +10,16 @@
 @media screen and (min-width: 768px){
     body {
         margin: 0;
+        background-color: white;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body.dark-mode {
+        margin: 0;
+        background-color: black;
+        color: black;
     }
 }
 
@@ -34,10 +44,15 @@
         height: 70%;
         width: 15%;
         background-color: rgba(248, 67, 67, 0.822);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .players-header {
         text-indent: 5px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: .9em;
-        
+        font-size: 1.5vw;
+        letter-spacing: 1px;  
     }
 }
 
@@ -56,8 +71,110 @@
 }
 
 @media screen and (min-width: 768px){
+    .Matches {
+        position: absolute;
+        right: 500px;
+        width: 30%;
+        border: none;
+        padding: 10px;
+        background-color: rgba(118, 248, 67, 0.822);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .matches-header {
+        text-indent: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5vw;
+        letter-spacing: 1px;  
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .matches-pic{
+        width: 100%;
+        height: auto;
+        opacity: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Matches:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Money {
+        margin-top: 3em;
+        margin-left: 1em;
+        height: 70%;
+        width: 15%;
+        background-color: rgba(248, 67, 67, 0.822);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .money-header {
+        text-indent: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5vw;
+        letter-spacing: 1px;  
+    }
+}
+
+@media screen and (min-width: 768px){
+    .money-pic{
+        width: 100%;
+        height: auto;
+        opacity: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Money:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Team {
+        margin-top: 3em;
+        margin-left: 1em;
+        height: 70%;
+        width: 15%;
+        background-color: rgba(110, 26, 26, 0.822);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .team-header {
+        text-indent: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5vw;
+        letter-spacing: 1px;  
+    }
+}
+
+@media screen and (min-width: 768px){
+    .team-pic{
+        width: 15%;
+        height: 30%;
+        opacity: 60%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Team:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px){
     .user-icon {
-        margin-left: 16.5em;
+        margin-left: auto;
+        margin-right: 5px;
     }
 }
 
@@ -74,15 +191,56 @@
     }
 }
 
-@media screen and (min-width: 768px){
-    h1 {
+/* @media screen and (min-width: 768px){
+    .player-header {
         margin-right: 1em;
         cursor: pointer;
     }
-}
+} */
 
 /*MOBILE*/
 
 @media screen and (max-width: 768px){
+    .Players {
+        margin-top: 3em;
+        margin-left: 1em;
+        height: 70%;
+        width: 15%;
+        background-color: rgba(248, 67, 67, 0.822);
+        text-indent: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+        
+    }
+}
 
+@media screen and (max-width: 768px){
+    .player-pic{
+        width: 100%;
+        height: auto;
+        opacity: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav {
+        display: flex;
+        align-items: center;
+        background-color: grey;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    ul {
+        display: flex;
+        list-style-type: none;
+        gap: 1vw;
+    }
 }
