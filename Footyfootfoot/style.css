@@ -3,7 +3,14 @@
     nav {
         display: flex;
         align-items: center;
+        justify-content: center;
         background-color: black;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     .topnav #myLinks {
@@ -69,6 +76,20 @@
         box-sizing: border-box;
     }
 
+    .LinkBlock {
+        box-sizing: border-box;
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        margin: 0px;
+        padding: 0px; 
+        height: 100%;
+    }
+
+    .LinkBlock:hover {
+        cursor: pointer;
+    }
+
     .main-box {
         width: 50%;
     }
@@ -89,6 +110,17 @@
     .flex-box {
         display: flex;
         align-items: center;
+        margin: 8px;
+        padding: 0;
+    }
+
+    .title-mainbox {
+        width: 100%;
+    }
+
+    .title-box {
+        display: flex;
+        justify-content: center;
         margin: 8px;
         padding: 0;
     }
@@ -118,6 +150,12 @@
         opacity: 0.875;
         color: whitesmoke;
     }
+
+    .money-box {
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
 
@@ -213,6 +251,12 @@
         padding: 0;
         border-radius: 10px;
         border: 1px solid black;
+    }
+
+    .title-box {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
     }
 
     .flex-box {

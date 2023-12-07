@@ -10,7 +10,7 @@
     <link rel="icon" href="https://th.bing.com/th/id/R.87a28fc195aa108c43c52f6071db1a49?rik=uYnaPbXYdraGiQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_432395.png&ehk=5fooEfz0FmhETH9OPPixBCzuk8pO8NH5sI83Pl63osg%3d&risl=&pid=ImgRaw&r=0">
 </head>
 <body>
-    <nav class="topnav">
+    <nav class="topnav" id="navbar">
         <a href="index.html">
         <svg xmlns="http://www.w3.org/2000/svg" class="icons" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -25,31 +25,6 @@
           <a href="matches.html">Matches</a>
           <a href="team.html">Your Team</a>
           <a href="money.html">Balance</a>
-            <!-- <li><a href="team.html"><svg xmlns="http://www.w3.org/2000/svg" class="icons" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M15 4l6 2v5h-3v8a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-8h-3v-5l6 -2a3 3 0 0 0 6 0" />
-                <path d="M10.5 11h2.5l-1.5 5" />
-              </svg></a></li>
-            <li><a href="matches.html"><svg xmlns="http://www.w3.org/2000/svg" class="icons" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                <path d="M3 9h3v6h-3z" />
-                <path d="M18 9h3v6h-3z" />
-                <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-                <path d="M12 5l0 14" />
-              </svg></a></li>
-            <li><a href="players.html"><svg xmlns="http://www.w3.org/2000/svg" class="icons" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5"  fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M11 4a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
-                <path d="M3 17l5 1l.75 -1.5" />
-                <path d="M14 21v-4l-4 -3l1 -6" />
-                <path d="M6 12v-3l5 -1l3 3l3 1" />
-                <path d="M19.5 20a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z" fill="currentColor" />
-              </svg></a></li>
-              <li><a href="money.html"><svg xmlns="http://www.w3.org/2000/svg" class="icons" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M17.1 8.648a.568 .568 0 0 1 -.761 .011a5.682 5.682 0 0 0 -3.659 -1.34c-1.102 0 -2.205 .363 -2.205 1.374c0 1.023 1.182 1.364 2.546 1.875c2.386 .796 4.363 1.796 4.363 4.137c0 2.545 -1.977 4.295 -5.204 4.488l-.295 1.364a.557 .557 0 0 1 -.546 .443h-2.034l-.102 -.011a.568 .568 0 0 1 -.432 -.67l.318 -1.444a7.432 7.432 0 0 1 -3.273 -1.784v-.011a.545 .545 0 0 1 0 -.773l1.137 -1.102c.214 -.2 .547 -.2 .761 0a5.495 5.495 0 0 0 3.852 1.5c1.478 0 2.466 -.625 2.466 -1.614c0 -.989 -1 -1.25 -2.886 -1.954c-2 -.716 -3.898 -1.728 -3.898 -4.091c0 -2.75 2.284 -4.091 4.989 -4.216l.284 -1.398a.545 .545 0 0 1 .545 -.432h2.023l.114 .012a.544 .544 0 0 1 .42 .647l-.307 1.557a8.528 8.528 0 0 1 2.818 1.58l.023 .022c.216 .228 .216 .569 0 .773l-1.057 1.057z" />
-              </svg></a></li> -->
             
           </div>   
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -59,11 +34,11 @@
     
     <main class = "Flex">
 
-      <div class = "box main-box">
+      <div class = "box title-mainbox">
         <div class = "box inner-box">
           <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
             <div class = "box link-box">
-              <div class = "flex-box">
+              <div class = "title-box">
                 <div class = "box icon-box">
                 </div>
                 <div class = "box text-box">
@@ -98,6 +73,29 @@
           </a>
         </div>
      </div>
+
+
+     <div class = "box main-box">
+      <div class = "box inner-box">
+        <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
+          <div class = "box link-box">
+            <div class = "flex-box">
+              <div class = "box icon-box">
+              <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="-31.16 -31.16 373.91 373.91" xml:space="preserve" stroke="#ffffff" stroke-width="0.0031158800000000006" transform="rotate(0)matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#030303" stroke-width="9.970816000000001"> <g> <g> 
+                <path d="M181.731,0c15.202,0,27.526,12.323,27.526,27.526c0,15.2-12.324,27.524-27.526,27.524 c-15.198,0-27.524-12.324-27.524-27.524C154.207,12.323,166.533,0,181.731,0z"></path> 
+                <path d="M275.502,153.914c1.579,0.577,3.185,0.852,4.769,0.852c5.618,0,10.89-3.456,12.95-9.028 c8.782-23.84-5.25-58.386-6.876-62.246l-1.942-4.59l-48.818-25.287c-2.89-1.497-6.054-1.815-9.016-1.225 c-22.126-1.9-51.222,14.374-58.787,18.892c-1.196,0.714-1.869,1.139-1.869,1.139v0.031c-1.274,0.859-2.465,1.856-3.412,3.182 l-26.502,37.037l-35.302,17.373c-6.835,3.366-9.652,11.633-6.289,18.468c2.403,4.878,7.296,7.71,12.386,7.71 c2.048,0,4.119-0.455,6.082-1.421l41.523-20.436l13.729-19.18l2.284,44.1c0,0,0.149,0.057,0.408,0.16 c0.062,0.777,0.156,1.559,0.363,2.341l4.442,17.124l-26.535,30.059l-66.238,80.033c-4.857,5.872-4.034,14.571,1.835,19.429 c2.571,2.128,5.688,3.158,8.785,3.158c3.966,0,7.907-1.698,10.639-4.997l65.818-79.541l14.064-15.938l1.388,5.386l7.694,2.112 c21.35,5.872,47.101,14.344,54.251,18.419c2.512,3.552,6.654,5.836,11.258,5.836c0.315,0,0.637-0.011,0.958-0.031 c7.606-0.523,13.344-7.109,12.82-14.717c-0.787-11.516-11.309-16.984-40.55-26.615c-8.9-2.936-17.688-5.566-23.7-7.307 l-2.086-8.036l9.206-10.434c8.891-5.593,24.984-52.962,28.045-87.073l19.351,10.028c3.713,10.545,8.104,28.283,4.701,37.507 C264.689,143.346,268.355,151.278,275.502,153.914z"></path> <path d="M44.475,246.033c16.003,0,28.977,12.976,28.977,28.977c0,16-12.974,28.977-28.977,28.977S15.498,291.01,15.498,275.01 C15.498,259.009,28.472,246.033,44.475,246.033z"></path>
+               </g> </g> </g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M181.731,0c15.202,0,27.526,12.323,27.526,27.526c0,15.2-12.324,27.524-27.526,27.524 c-15.198,0-27.524-12.324-27.524-27.524C154.207,12.323,166.533,0,181.731,0z"></path> <path d="M275.502,153.914c1.579,0.577,3.185,0.852,4.769,0.852c5.618,0,10.89-3.456,12.95-9.028 c8.782-23.84-5.25-58.386-6.876-62.246l-1.942-4.59l-48.818-25.287c-2.89-1.497-6.054-1.815-9.016-1.225 c-22.126-1.9-51.222,14.374-58.787,18.892c-1.196,0.714-1.869,1.139-1.869,1.139v0.031c-1.274,0.859-2.465,1.856-3.412,3.182 l-26.502,37.037l-35.302,17.373c-6.835,3.366-9.652,11.633-6.289,18.468c2.403,4.878,7.296,7.71,12.386,7.71 c2.048,0,4.119-0.455,6.082-1.421l41.523-20.436l13.729-19.18l2.284,44.1c0,0,0.149,0.057,0.408,0.16 c0.062,0.777,0.156,1.559,0.363,2.341l4.442,17.124l-26.535,30.059l-66.238,80.033c-4.857,5.872-4.034,14.571,1.835,19.429 c2.571,2.128,5.688,3.158,8.785,3.158c3.966,0,7.907-1.698,10.639-4.997l65.818-79.541l14.064-15.938l1.388,5.386l7.694,2.112 c21.35,5.872,47.101,14.344,54.251,18.419c2.512,3.552,6.654,5.836,11.258,5.836c0.315,0,0.637-0.011,0.958-0.031 c7.606-0.523,13.344-7.109,12.82-14.717c-0.787-11.516-11.309-16.984-40.55-26.615c-8.9-2.936-17.688-5.566-23.7-7.307 l-2.086-8.036l9.206-10.434c8.891-5.593,24.984-52.962,28.045-87.073l19.351,10.028c3.713,10.545,8.104,28.283,4.701,37.507 C264.689,143.346,268.355,151.278,275.502,153.914z"></path> <path d="M44.475,246.033c16.003,0,28.977,12.976,28.977,28.977c0,16-12.974,28.977-28.977,28.977S15.498,291.01,15.498,275.01 C15.498,259.009,28.472,246.033,44.475,246.033z"></path> </g> </g> </g></svg>
+              </div>
+              <div class = "box text-box">
+                <h2 class = "Heading">
+                Lionel Messi</h2>
+                <p class = "Text">Forward</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+   </div>
 
      <div class = "box main-box">
       <div class = "box inner-box">
@@ -143,22 +141,22 @@
     </div>
  </div>
 
-   <div class = "box main-box">
-        <div class = "box inner-box">
-          <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
-            <div class = "box link-box">
-              <div class = "flex-box">
-                <div class = "box icon-box">
-                </div>
-                <div class = "box text-box">
-                  <h2 class = "Heading">
-                  Midfielders</h2>
-                </div>
-              </div>
-            </div>
-          </a>
+ <div class = "box title-mainbox">
+  <div class = "box inner-box">
+    <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
+      <div class = "box link-box">
+        <div class = "title-box">
+          <div class = "box icon-box">
+          </div>
+          <div class = "box text-box">
+            <h2 class = "Heading">
+            Midfielders</h2>
+          </div>
         </div>
-     </div>
+      </div>
+    </a>
+  </div>
+</div>
 
 
    <div class = "box main-box">
@@ -238,11 +236,11 @@
 </div>
 
 
-<div class = "box main-box">
+<div class = "box title-mainbox">
   <div class = "box inner-box">
     <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
       <div class = "box link-box">
-        <div class = "flex-box">
+        <div class = "title-box">
           <div class = "box icon-box">
           </div>
           <div class = "box text-box">
@@ -332,11 +330,11 @@
   </div>
 </div>
 
-<div class = "box main-box">
+<div class = "box title-mainbox">
   <div class = "box inner-box">
     <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
       <div class = "box link-box">
-        <div class = "flex-box">
+        <div class = "title-box">
           <div class = "box icon-box">
           </div>
           <div class = "box text-box">
@@ -408,8 +406,44 @@
   </div>
 </div>
 
+<div class = "box main-box">
+  <div class = "box inner-box">
+    <a class = "LinkBlock" href="players.html" style="box-sizing: border-box; display: block; text-decoration: none; color: inherit; margin: 0px; padding: 0px; height: 100%;">
+      <div class = "box link-box">
+        <div class = "flex-box">
+          <div class = "box icon-box">
+          <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 476.142 476.142" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#030303" stroke-width="19.04568"> <g> <g> <path d="M299.113,157.75c7.25,15.198,24.838,22.842,41.036,17.049c17.296-6.179,26.313-25.207,20.126-42.502 c-0.506-1.411-1.227-2.675-1.896-3.978L299.113,157.75z"></path> <path d="M439.746,40.167c18.358,0,33.246,14.888,33.246,33.253c0,18.364-14.888,33.258-33.246,33.258 c-18.37,0-33.258-14.894-33.258-33.258C406.488,55.054,421.376,40.167,439.746,40.167z"></path> <path d="M26.136,370.021c0.848-0.309,1.695-0.661,2.519-1.105l155.747-81.615l8.64,16.851c-1.17,0.697-2.292,1.52-3.328,2.485 l-51.161,47.804L37.038,398.463c-9.906,4.292-14.467,15.809-10.167,25.728c4.125,9.506,14.894,14.086,24.509,10.644 c0.411-0.148,0.818-0.309,1.229-0.485l104.61-45.348c2.06-0.886,3.933-2.12,5.574-3.654l48.604-45.408l0.1,0.208l1.663-1.848 l3.266-3.054c1.401-1.303,2.473-2.805,3.4-4.359l103.251-114.932l75.492-16.548c0.641-0.143,1.286-0.323,1.915-0.553 c1.899-0.681,3.671-1.731,5.182-3.092l65.281-58.648c6.432-5.781,6.961-15.677,1.187-22.105 c-5.764-6.434-15.67-6.965-22.102-1.188l-62.199,55.888l-69.745,15.302l-33.334-20.125l-3.979-2.398l-3.995-2.413l19.788-9.82 l57.459-28.527l37.51-18.621c7.758-3.857,10.904-13.245,7.061-20.987c-2.736-5.502-8.271-8.69-14.033-8.69 c-2.341,0-4.709,0.525-6.949,1.639l-129.132,64.106c-1.109,0.553-2.132,1.227-3.041,1.99l-0.148-0.088l-0.581,0.824 c-0.605,0.583-1.227,1.154-1.735,1.813c-0.798,1.054-1.419,2.224-1.93,3.424l-4.995,7.146l-3.334,4.771l-64.758,92.682 L10.489,334.256c-9.568,5.009-13.267,16.843-8.25,26.421C6.832,369.409,17.101,373.248,26.136,370.021z"></path> </g> </g> </g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M299.113,157.75c7.25,15.198,24.838,22.842,41.036,17.049c17.296-6.179,26.313-25.207,20.126-42.502 c-0.506-1.411-1.227-2.675-1.896-3.978L299.113,157.75z"></path> <path d="M439.746,40.167c18.358,0,33.246,14.888,33.246,33.253c0,18.364-14.888,33.258-33.246,33.258 c-18.37,0-33.258-14.894-33.258-33.258C406.488,55.054,421.376,40.167,439.746,40.167z"></path> <path d="M26.136,370.021c0.848-0.309,1.695-0.661,2.519-1.105l155.747-81.615l8.64,16.851c-1.17,0.697-2.292,1.52-3.328,2.485 l-51.161,47.804L37.038,398.463c-9.906,4.292-14.467,15.809-10.167,25.728c4.125,9.506,14.894,14.086,24.509,10.644 c0.411-0.148,0.818-0.309,1.229-0.485l104.61-45.348c2.06-0.886,3.933-2.12,5.574-3.654l48.604-45.408l0.1,0.208l1.663-1.848 l3.266-3.054c1.401-1.303,2.473-2.805,3.4-4.359l103.251-114.932l75.492-16.548c0.641-0.143,1.286-0.323,1.915-0.553 c1.899-0.681,3.671-1.731,5.182-3.092l65.281-58.648c6.432-5.781,6.961-15.677,1.187-22.105 c-5.764-6.434-15.67-6.965-22.102-1.188l-62.199,55.888l-69.745,15.302l-33.334-20.125l-3.979-2.398l-3.995-2.413l19.788-9.82 l57.459-28.527l37.51-18.621c7.758-3.857,10.904-13.245,7.061-20.987c-2.736-5.502-8.271-8.69-14.033-8.69 c-2.341,0-4.709,0.525-6.949,1.639l-129.132,64.106c-1.109,0.553-2.132,1.227-3.041,1.99l-0.148-0.088l-0.581,0.824 c-0.605,0.583-1.227,1.154-1.735,1.813c-0.798,1.054-1.419,2.224-1.93,3.424l-4.995,7.146l-3.334,4.771l-64.758,92.682 L10.489,334.256c-9.568,5.009-13.267,16.843-8.25,26.421C6.832,369.409,17.101,373.248,26.136,370.021z"></path> </g> </g> </g></svg>
+          </div>
+          <div class = "box text-box">
+            <h2 class = "Heading">
+             Manuel Neuer</h2>
+            <p class = "Text">Goalkeeper</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
     </main>
-<script>function myFunction() {
+<script>
+window.onscroll = function() {amFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function amFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
+
+
+function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
       x.style.display = "none";
