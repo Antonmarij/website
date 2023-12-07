@@ -173,6 +173,17 @@
         box-shadow: 0 5px #666;
         transform: translateY(4px);
     }
+
+    .playerButton {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: auto;
+        padding: 10px 20px;
+        background-color: #333339;
+        color: whitesmoke;
+    }
 }
 
 
@@ -324,6 +335,17 @@
         background-color: #3e8e41;
         box-shadow: 0 5px #666;
         transform: translateY(4px);
+    }
+
+    .playerButton {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: auto;
+        padding: 10px 20px;
+        background-color: #333339;
+        color: whitesmoke;
     }
 
 }
