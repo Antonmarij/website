@@ -6,6 +6,31 @@
         background-color: black;
     }
 
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: whitesmoke;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    nav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
     .main-header {
         color: whitesmoke;
     }
@@ -109,11 +134,11 @@
         background-color: black;
     }
 
-    nav #myLinks {
+    .topnav #myLinks {
         display: none;
     }
 
-    nav a {
+    .topnav a {
         color: whitesmoke;
         padding: 14px 16px;
         text-decoration: none;
@@ -121,8 +146,13 @@
         display: block;
     }
 
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
     nav a.icon {
-        background: whitesmoke;
+        background: black;
         display: block;
         position: absolute;
         right: 0;
