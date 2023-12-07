@@ -3,24 +3,25 @@
     nav {
         display: flex;
         align-items: center;
-        background-color: grey;
+        background-color: black;
     }
 
-    main {
+    .main-header {
+        color: whitesmoke;
+    }
+
+    .icons {
         display: flex;
-        
+        cursor: pointer;
+        stroke: rgb(255, 187, 51);
     }
 
     body {
+        height: 100%;
+        line-height: 1.5;
         margin: 0;
-        background-color: white;
-        color: white;
-    }
-
-    body.dark-mode {
-        margin: 0;
-        background-color: black;
-        color: black;
+        background-color: #333339;
+        
     }
 
     ul {
@@ -33,10 +34,66 @@
         cursor: pointer;
     }
 
-    .ball-icon {
+    .Flex {
+        box-sizing: border-box;
         display: flex;
-        cursor: pointer;
+        flex-wrap: wrap;
     }
+
+    .box {
+        box-sizing: border-box;
+    }
+
+    .main-box {
+        width: 50%;
+    }
+
+    .inner-box {
+        margin: 16px;
+    }
+
+    .link-box {
+        align-items: center;
+        margin: 0;
+        background-color: rgb(41, 41, 41);
+        padding: 0;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .flex-box {
+        display: flex;
+        align-items: center;
+        margin: 8px;
+        padding: 0;
+    }
+
+    .icon-box {
+        padding: 0;
+    }
+
+    .text-box {
+        margin-left: 8px;
+    }
+
+    .Heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: rgb(255, 187, 51);
+    }
+
+    .Text {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        opacity: 0.875;
+        color: whitesmoke;
+    }
+
 }
 
 
@@ -49,17 +106,117 @@
     nav {
         display: flex;
         align-items: center;
-        background-color: grey;
+        background-color: black;
+    }
+
+    nav #myLinks {
+        display: none;
+    }
+
+    nav a {
+        color: whitesmoke;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    nav a.icon {
+        background: whitesmoke;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .main-header {
+        color: whitesmoke;
+    }
+
+    .icons {
+        display: flex;
+        cursor: pointer;
+        stroke: rgb(255, 187, 51);
     }
 
     body {
+        height: 100%;
+        line-height: 1.5;
         margin: 0;
+        background-color: #333339;
+        
     }
 
     ul {
         display: flex;
         list-style-type: none;
-        gap: 1vw;
+        gap: 1em;
     }
+
+    ul:hover {
+        cursor: pointer;
+    }
+
+    .Flex {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .box {
+        box-sizing: border-box;
+    }
+
+    .main-box {
+        width: 100%;
+    }
+
+    .inner-box {
+        margin: 16px;
+    }
+
+    .link-box {
+        align-items: center;
+        margin: 0;
+        background-color: rgb(41, 41, 41);
+        padding: 0;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .flex-box {
+        display: flex;
+        align-items: center;
+        margin: 8px;
+        padding: 0;
+    }
+
+    .icon-box {
+        padding: 0;
+    }
+
+    .text-box {
+        margin-left: 8px;
+    }
+
+    .Heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: rgb(255, 187, 51);
+    }
+
+    .Text {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        opacity: 0.875;
+        color: whitesmoke;
+    }
+
 }
 
