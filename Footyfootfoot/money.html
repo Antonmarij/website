@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
     <link rel="icon" href="https://th.bing.com/th/id/R.87a28fc195aa108c43c52f6071db1a49?rik=uYnaPbXYdraGiQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_432395.png&ehk=5fooEfz0FmhETH9OPPixBCzuk8pO8NH5sI83Pl63osg%3d&risl=&pid=ImgRaw&r=0">
     <title>Balance</title>
 </head>
@@ -48,13 +49,6 @@
             
         </ul>
         
-        <!-- <a href="user.html"><svg xmlns="http://www.w3.org/2000/svg" class="user-icon" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M12 13a3 3 0 1 0 0 -6a3 3 0 0 0 0 6z" />
-          <path d="M6.201 18.744a4 4 0 0 1 3.799 -2.744h4a4 4 0 0 1 3.798 2.741" />
-          <path d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
-        </svg></a> -->
-
     </nav>
     <main>
       <div class = "box money-box">
@@ -71,7 +65,7 @@
                 <div class = "box text-box">
                   <h2 class = "Heading">
                     Current balance:</h2>
-                  <p class = "Text">$ input</p>
+                  <span id="accountBalance">0</span>
                 </div>
               </div>
             </div>
@@ -93,8 +87,9 @@
                 <div class = "box text-box">
                   <h2 class = "Heading">
                     Add to balance</h2>
-                  <input class="mnyInput" placeholder="Amount...">
-                  <button>Add</button>
+                  <input type="number" id="mnyInput" placeholder="Enter amount..">
+                  <button class="addButton"onclick="addToBalance()">Add</button>
+                  
                 </div>
               </div>
             </div>

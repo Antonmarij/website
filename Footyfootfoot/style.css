@@ -156,7 +156,23 @@
         justify-content: center;
     }
 
+    #accountBalance {
+        color: rgb(133, 187, 101)
+    }
 
+    .addButton {
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(133, 187, 101);
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+
+    .addButton:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
 }
 
 
@@ -290,6 +306,24 @@
         margin: 0;
         opacity: 0.875;
         color: whitesmoke;
+    }
+
+    #accountBalance {
+        color: rgb(133, 187, 101)
+    }
+
+    .addButton {
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(133, 187, 101);
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+
+    .addButton:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
     }
 
 }
