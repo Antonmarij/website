@@ -1,13 +1,13 @@
 /*Balance Script*/ 
 
 function addToBalance(){
-    var enteredAmount = document.getElementById("mnyInput").value;
+    const enteredAmount = document.getElementById("mnyInput").value;
 
     enteredAmount = parseFloat(enteredAmount);
 
     if (!isNaN(enteredAmount)) {
-      var currentBalance = parseFloat(document.getElementById("accountBalance").innerText);
-      var newBalance = currentBalance + enteredAmount;
+      const currentBalance = parseFloat(document.getElementById("accountBalance").innerText);
+      const newBalance = currentBalance + enteredAmount;
       
       document.getElementById("accountBalance").innerText = newBalance.toFixed(2);
 
@@ -20,7 +20,7 @@ function addToBalance(){
   }
 
   window.onload = function() {
-    var storedBalance = localStorage.getItem("accountBalance");
+    const storedBalance = localStorage.getItem("accountBalance");
     if (storedBalance !== null) {
       document.getElementById("accountBalance").innerText = parseFloat(storedBalance).toFixed(2);
     }
@@ -30,8 +30,8 @@ function addToBalance(){
 
 /*PLAYERS SCRIPT */
 window.onscroll = function() {amFunction()};
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+const navbar = document.getElementById("navbar");
+const sticky = navbar.offsetTop;
 
 function amFunction() {
   if (window.scrollY >= sticky) {
