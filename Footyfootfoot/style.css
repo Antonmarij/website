@@ -166,12 +166,17 @@
         background-color: rgb(133, 187, 101);
         cursor: pointer;
         transition-duration: 0.4s;
+        font-family: fantasy;
+        font-size: 18px;
+        -webkit-text-stroke: 1px black;
+        color: whitesmoke;
     }
 
     .addButton:active {
         background-color: #3e8e41;
         box-shadow: 0 5px #666;
         transform: translateY(4px);
+        font-family: fantasy;
     }
 
     .playerButton {
@@ -183,6 +188,10 @@
         padding: 10px 20px;
         background-color: #333339;
         color: whitesmoke;
+        font-family:  fantasy;
+        letter-spacing: 1px;
+        -webkit-text-stroke: .5px black;
+        font-size: 18px;
     }
 }
 
@@ -323,18 +332,29 @@
         color: rgb(133, 187, 101)
     }
 
+    .money-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    #accountBalance {
+        color: rgb(133, 187, 101)
+    }
+
     .addButton {
         border-radius: 6px;
         border: none;
         background-color: rgb(133, 187, 101);
         cursor: pointer;
         transition-duration: 0.4s;
+        font-family: fantasy;
     }
 
     .addButton:active {
         background-color: #3e8e41;
         box-shadow: 0 5px #666;
         transform: translateY(4px);
+        font-family: fantasy;
     }
 
     .playerButton {
@@ -346,6 +366,10 @@
         padding: 10px 20px;
         background-color: #333339;
         color: whitesmoke;
+        font-family:  fantasy;
+        letter-spacing: 1px;
+        -webkit-text-stroke: .5px black;
+        font-size: 18px;
     }
 
 }
