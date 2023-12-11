@@ -194,10 +194,71 @@
         font-size: 18px;
         border-radius: 6px;
     }
+
+    .teambox {
+        box-sizing: border-box;
+        margin: 6px;
+        background-color: rgb(41, 41, 41);
+    }
+    
+    
+    table, th, td {
+        background-color: rgb(41, 41, 41);
+        border: 2px solid black;
+    }
+    
+    
+    table {
+        width: 60%;
+        color: whitesmoke;
+        margin-left: 20%;
+    }
+
+    .matchButton {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 48%;
+        margin-right: 48%;
+        padding: 10px 20px;
+        background-color: #333339;
+        color: whitesmoke;
+        font-family:  fantasy;
+        letter-spacing: 1px;
+        -webkit-text-stroke: .5px black;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+
+    .match-box {
+        box-sizing: border-box;
+        margin: 6px;
+        background-color: rgb(41, 41, 41);
+    }
+
+    .match-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .teams {
+        margin: 10px;
+        color: whitesmoke;
+    }
+
+    .result {
+        display: flex;
+        justify-content: center;
+        color: whitesmoke;
+    }
+
+    .scores {
+        display: flex;
+        justify-content: center;
+        color: whitesmoke;
+    }
+
 }
 
 
-table, th, td {
-    border: 2px solid whitesmoke;
-}
 
