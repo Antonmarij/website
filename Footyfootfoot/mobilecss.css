@@ -1,16 +1,8 @@
-/*DESKTOP*/
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     nav {
         display: flex;
         align-items: center;
-        justify-content: center;
         background-color: black;
-    }
-
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
     }
 
     .topnav #myLinks {
@@ -70,28 +62,15 @@
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .box {
         box-sizing: border-box;
     }
 
-    .LinkBlock {
-        box-sizing: border-box;
-        display: block;
-        text-decoration: none;
-        color: inherit;
-        margin: 0px;
-        padding: 0px; 
-        height: 100%;
-    }
-
-    .LinkBlock:hover {
-        cursor: pointer;
-    }
-
     .main-box {
-        width: 50%;
+        width: 100%;
     }
 
     .inner-box {
@@ -107,20 +86,15 @@
         border: 1px solid black;
     }
 
-    .flex-box {
-        display: flex;
-        align-items: center;
-        margin: 8px;
-        padding: 0;
-    }
-
-    .title-mainbox {
-        width: 100%;
-    }
-
     .title-box {
         display: flex;
         justify-content: center;
+        margin: 5px;
+    }
+
+    .flex-box {
+        display: flex;
+        align-items: center;
         margin: 8px;
         padding: 0;
     }
@@ -151,6 +125,10 @@
         color: whitesmoke;
     }
 
+    #accountBalance {
+        color: rgb(133, 187, 101)
+    }
+
     .money-box {
         display: flex;
         justify-content: center;
@@ -167,9 +145,6 @@
         cursor: pointer;
         transition-duration: 0.4s;
         font-family: fantasy;
-        font-size: 18px;
-        -webkit-text-stroke: 1px black;
-        color: whitesmoke;
     }
 
     .addButton:active {
@@ -192,12 +167,7 @@
         letter-spacing: 1px;
         -webkit-text-stroke: .5px black;
         font-size: 18px;
-        border-radius: 6px;
     }
-}
 
-
-table, th, td {
-    border: 2px solid whitesmoke;
 }
 
