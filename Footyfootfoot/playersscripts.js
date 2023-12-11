@@ -1,3 +1,4 @@
+/*sticky navbar */
 window.onscroll = function() {amFunction()};
 const navbar = document.getElementById("navbar");
 const sticky = navbar.offsetTop;
@@ -10,10 +11,7 @@ function amFunction() {
   }
 }
 
-
-
-
-
+/*hamburgerbar */
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {

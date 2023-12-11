@@ -243,19 +243,19 @@
 
     .teams {
         margin: 10px;
-        color: whitesmoke;
+        color: rgb(255, 187, 51);
     }
 
     .result {
         display: flex;
         justify-content: center;
-        color: whitesmoke;
+        color: rgb(255, 187, 51);
     }
 
     .scores {
         display: flex;
         justify-content: center;
-        color: whitesmoke;
+        color: rgb(255, 187, 51);
     }
 
 }
