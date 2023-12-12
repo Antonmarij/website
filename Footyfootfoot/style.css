@@ -234,6 +234,8 @@
         box-sizing: border-box;
         margin: 6px;
         background-color: rgb(41, 41, 41);
+        border: 1px solid black;
+        border-radius: 6px;
     }
 
     .match-info {

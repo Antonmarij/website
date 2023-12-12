@@ -235,6 +235,11 @@
         color: rgb(255, 187, 51);
     }
 
+    .match-icon {
+        display: flex;
+        justify-content: center;
+    }
+
     
 
 }
